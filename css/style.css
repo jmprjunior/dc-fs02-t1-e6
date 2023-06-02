@@ -280,6 +280,124 @@ header .menu nav ul li.active {
 }
 /* Section --> banner (fim) */
 
+/* Section --> produto (início) */
+#produto {
+    background-color: var(--fundo-padrao);
+}
+
+#produto ul {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-left: 104px;
+    margin-right: 104px;
+    padding-bottom: 120px;
+    justify-content: center;
+}
+
+#produto .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+
+#produto .title h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+#produto .title a {
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+}
+
+#produto .title a:hover {
+    color: var(--tertiary);
+}
+
+#produto .title a i {
+    margin-left: 14px;
+}
+
+#produto ul li .card {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    height: 321px;
+    background-color: var(--white);
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+}
+
+#produto ul li .card .off {
+    display: flex;
+    width: 96px;
+    height: 32px;
+    background-color: #e7ff86;
+    border-radius: 29px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+    align-self: flex-start;
+    visibility: hidden;
+    margin-bottom: 30px;
+}
+
+#produto ul li .card .active {
+    visibility: visible;
+}
+
+#produto ul li .info h6 {
+    padding-top: 18px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: var(--light-gray);
+}
+
+#produto ul li .info h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+#produto ul li .info p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray);
+}
+
+#produto ul li .info p del {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--light-gray);
+    text-decoration: line-through;
+    padding-right: 11px;
+}
+/* Section --> produto (fim) */
+
 /* Section --> oferta (início) */
 #oferta {
     display: flex;
