@@ -280,6 +280,145 @@ header .menu nav ul li.active {
 }
 /* Section --> banner (fim) */
 
+/* Section --> coleção (início) */
+#colecao {
+    padding: 38px 104px 123px 104px;
+    background-color: var(--fundo-padrao);
+}
+
+#colecao h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+#colecao .card {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#colecao .card .item {
+    margin-top: 20px;
+    width: 405px;
+    height: 251px;
+    background-color: #d8e3f2;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+#colecao .card .img1 {
+    background-image: url("../img/colecoes_item1.png");
+}
+
+#colecao .card .img2 {
+    background-image: url("../img/colecoes_item2.png");
+}
+
+#colecao .card .img3 {
+    background-image: url("../img/colecoes_item3.png");
+}
+
+#colecao .card .item .off {
+    margin-left: 30px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 96px;
+    height: 32px;
+    background: #e7ff86;
+    border-radius: 29px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+#colecao .card .item h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: var(--dark-gray);
+}
+
+#colecao .card .item button {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 153px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--light-gray-3);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+#colecao .card .item button:hover {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+#colecao h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#colecao .botao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+#colecao .botao .bt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colecao .botao .bt .img {
+    display: flex;
+    background-color: var(--white);
+    width: 104px;
+    height: 104px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 25px #00000005;
+    border-radius: 150px;
+    margin-bottom: 12px;
+    color: var(--light-gray);
+    font-size: 64px;
+    cursor: pointer;
+}
+
+#colecao .botao .bt .img:hover {
+    color: var(--primary);
+}
+
+#colecao .botao .bt p {
+    color: var(--dark-gray-2);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+/* Section --> coleção (fim) */
+
 /* Section --> produto (início) */
 #produto {
     background-color: var(--fundo-padrao);
