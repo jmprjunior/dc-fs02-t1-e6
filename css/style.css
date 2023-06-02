@@ -280,6 +280,77 @@ header .menu nav ul li.active {
 }
 /* Section --> banner (fim) */
 
+/* Section --> oferta (início) */
+#oferta {
+    display: flex;
+    margin-right: 104px;
+}
+
+#oferta .card {
+    width: 466px;
+    min-height: 466px;
+    margin: 87px 97px 0px 129px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #4200ff25 -40.67%, #ffffff);
+}
+
+#oferta .card img {
+    position: relative;
+    width: 573px;
+    height: 330px;
+    margin-left: -77px;
+    margin-top: 28px;
+}
+
+#oferta .conteudo h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: var(--primary);
+    padding-top: 106px;
+    padding-bottom: 17px;
+}
+
+#oferta .conteudo h1 {
+    font-weight: 700;
+    font-size: 48px;
+    /* width: 514px; */
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: var(--dark-gray-2);
+    padding-bottom: 20px;
+}
+
+#oferta .conteudo p {
+    font-weight: 400;
+    font-size: 16;
+    /* width: 588px; */
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+    padding-bottom: 30px;
+}
+
+#oferta .conteudo button {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#oferta .conteudo button:hover {
+    background-color: var(--tertiary);
+}
+/* Section --> oferta (fim) */
+
 /* Footer (início) */
 footer {
     min-height: 454px;
