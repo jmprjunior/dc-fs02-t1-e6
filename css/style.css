@@ -183,3 +183,100 @@ header .menu nav ul li.active {
     border-radius: 2px;
 }
 /* Header (fim) */
+
+/* Section --> banner (início) */
+#banner {
+    background-color: var(--light-gray-3);
+    min-height: 681px;
+    padding-left: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#banner .destaque{
+    max-width: 520px;
+}
+
+#banner h5 {
+    padding-top: 124px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: var(--warning);
+}
+
+#banner h1 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: var(--dark-gray);
+}
+
+#banner p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+    /* max-width: 495px; */
+}
+
+#banner button {
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: var(--light-gray-3);
+    cursor: pointer;
+}
+
+#banner button:hover {
+    background-color: var(--tertiary);
+}
+
+#banner .tenis {
+    padding-top: 124px;
+}
+
+#banner .tenis img {
+    max-width: 100%;
+}
+
+#banner .bolinhas img {
+    padding-right: 37px;
+    padding-top: 78px;
+}
+
+#banner .paginacao {
+    width: 100%;
+}
+
+#banner .paginacao ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-bottom: 53px; */
+}
+
+#banner .paginacao ul li {
+    background-color: var(--light-gray-2);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+#banner .paginacao ul .active {
+    background-color: var(--primary);
+}
+/* Section --> banner (fim) */
+
