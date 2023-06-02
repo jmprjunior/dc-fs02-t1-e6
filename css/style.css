@@ -280,3 +280,108 @@ header .menu nav ul li.active {
 }
 /* Section --> banner (fim) */
 
+/* Footer (início) */
+footer {
+    min-height: 454px;
+    padding: 72px 104px 22px 104px;
+    background-color: var(--dark-gray);
+}
+
+footer .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .conteudo > div {
+    flex: 1;
+}
+
+footer .conteudo .logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+footer .conteudo .logo h3 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 36.4px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+}
+
+footer .conteudo p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    width: 307px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+footer .conteudo .redeSocial {
+    display: flex;
+    gap: 36px;
+    font-size: 20.5px;
+    color: var(--white);
+}
+
+footer .conteudo .redeSocial a {
+    color: var(--white);
+}
+
+footer .conteudo .redeSocial a:hover {
+    color: var(--primary);
+}
+
+footer .conteudo h5 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+footer .conteudo .links ul {
+    margin-top: 28px;
+}
+
+footer .conteudo .links li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    width: 231px;
+}
+
+footer .conteudo .links li,
+footer .conteudo .links li a {
+    color: var(--white);
+}
+
+footer .conteudo .links a:hover {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+footer .conteudo .links .endereco {
+    line-height: 26px;
+}
+
+footer .copyright {
+    width: 100%;
+    border-top: 1px solid #ffffff30;
+    margin-top: 34px;
+    text-align: center;
+}
+
+footer .copyright p {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 13px;
+    color: var(--white);
+    padding-top: 23px;
+    padding-bottom: 22px;
+}
+/* Footer (fim) */
+
