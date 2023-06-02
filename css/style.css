@@ -26,3 +26,160 @@
     --warning: #f6aa1c;
     --fundo-padrao: #f9f8fe;
 }
+
+/* Header (início) */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 34px 104px 40px 104px;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    gap: 8px;
+    color: var(--primary);
+    margin-right: 27px;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .logo:hover {
+    color: var(--tertiary);
+}
+
+header .logo img {
+    width: 33px;
+    height: 33px;
+}
+
+header .logo h1 {
+    font-size: 36.4px;
+    line-height: 44px;
+    letter-spacing: -1px;
+}
+
+header .pesquisar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+header .pesquisar input {
+    height: 60px;
+    width: 100%;
+    min-width: 200px;
+    background-color: #47474704;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+header .pesquisar i {
+    margin-left: -38px;
+    width: 18px;
+    color: var(--dark-gray-3);
+    cursor: pointer;
+}
+
+header .pesquisar i:hover {
+    color: var(--primary);
+}
+
+header .botoes {
+    display: flex;
+    align-items: center;
+}
+
+header .botoes a {
+    margin-left: 48px;
+    color: var(--dark-gray-2);
+    text-decoration: underline;
+    letter-spacing: 0.75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+header .botoes a:hover {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+header .botoes button {
+    margin-left: 30px;
+    background-color: var(--primary);
+    color: var(--white);
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+}
+
+header .botoes button:hover {
+    background-color: var(--tertiary);
+}
+
+header .botoes i {
+    margin-left: 72.75px;
+    color: var(--primary);
+    width: 18.5px;
+    cursor: pointer;
+}
+
+header .botoes i:hover {
+    color: var(--tertiary);
+}
+
+header .balao {
+    width: 17px;
+    height: 17px;
+    background-color: var(--error);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+    margin-left: -6px;
+    margin-top: -15px;
+}
+
+header .menu {
+    margin-top: 40px;
+    width: 100%;
+}
+
+header .menu nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+header .menu nav ul li {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: var(--dark-gray-2);
+}
+
+header .menu nav ul li:hover,
+header .menu nav ul li.active {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+}
+
+header .menu nav ul li.active {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid var(--primary);
+    border-radius: 2px;
+}
+/* Header (fim) */
